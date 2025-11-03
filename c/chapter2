@@ -1,0 +1,25 @@
+#define _CRT_NO_WARNNING
+#include <stdio.h>
+
+int main(void)
+{
+	//int i = 11;
+
+	//while (i >1)
+	//{
+	//	i = i --;
+	//	printf("i : %d\n", i);
+	//}
+	//printf("i : %d\n", i);//한번만 출력
+	
+	int sum = 0;
+	
+	for (int i =1; i<=100; i++ )
+	{
+		sum=sum+i;
+
+		printf("sum: %d\n", sum);
+	}
+	printf("sum: %d\n", sum);
+
+	return 0;
