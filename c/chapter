@@ -1,0 +1,17 @@
+#define _CRT_NO_WARNNING
+#include <stdio.h>
+
+int main(void)
+{
+
+	int rank = 2, m = 0;
+
+	switch (rank)
+	{
+	case 1:
+		m = 300;
+		break;
+		case 2;
+			m=
+	}
+}
