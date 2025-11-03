@@ -1,0 +1,29 @@
+#define _CRT_NO_WARNNING
+#include <stdio.h>
+
+int main(void)
+{
+	int i = 1;
+	int u = 0;
+
+	while (i<10)
+	{
+		i++;
+
+		u= i*3;
+		printf("u: %d\n", u);
+	}
+	
+	char ch;
+
+	for (ch = 'A'; ch <= 'z'; ch++)
+	{
+		printf("%c\n", ch);
+	}
+
+	int j;
+	for (j = 1; j <= 9; j++) {
+		printf("3 x %d = %d\n", j, 3 * j);
+	}
+	return 0;
+}
